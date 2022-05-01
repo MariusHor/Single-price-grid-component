@@ -232,6 +232,7 @@ body {
     font-weight: 700;
     cursor: pointer;
     box-shadow: 1px 10px 10px rgba(0, 0, 0, 15%);
+    border: 1px solid transparent;
 }
 
 .card__bottom {
@@ -282,5 +283,12 @@ body {
     .card__details {
         font-size: 1.6rem;
         margin-bottom: 0;
+    }
+
+    .sign-up-btn:hover {
+        color: #fff;
+        border: solid #fff 1px;
+        background-color: transparent;
+        transition: 0.3s ease-in-out;
     }
 }
