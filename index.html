@@ -11,42 +11,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!--header-->
     <header class="header">
       <h1 class="header__visually-hidden">Single Price Grid Component</h1>
     </header>
+    <!--END of header-->
+    <!--main-->
     <main class="main">
+      <!--card-->
       <div class="card">
+        <!--card top-->
         <div class="card__top">
-          <h2 class="card__header">Join our community</h2>
-          <h3 class="card__subheader">30-day, hassle-free money back guarantee</h3>
-          <p class="card__details">Gain access to our full library of tutorials along with expert code reviews. 
-            Perfect for any developers who are serious about honing their skills.</p>
+          <div class="card__container">
+            <h2 class="card__header">Join our community</h2>
+            <p class="card__subheader"><strong>30-day, hassle-free money back guarantee</strong></p>
+            <p class="card__details">Gain access to our full library of tutorials along with expert code reviews. 
+              Perfect for any developers who are serious about honing their skills.</p>
+          </div>
         </div>
+        <!--END of card top-->
+        <!--subscription-->
         <div class="subscription">
-          <h2 class="subscription__header">Monthly Subscription</h2>
-          <h3 class="subscription__price">&dollar;29 per month</h3>
-          <p class="subscription__details">Full access for less than &dollar;1 a day</p>
-          <button class="sign-up-btn">Sign Up</button>
+          <div class="card__container">
+            <h3 class="subscription__header">Monthly Subscription</h3>
+            <p class="subscription__price">&dollar;29 <span class="subscription__price-accent">per month</span></p>
+            <p class="subscription__details">Full access for less than &dollar;1 a day</p>
+            <a class="sign-up-btn" href="#" aria-label="Sign Up Here!">Sign Up</a>
+          </div>
         </div>
+        <!--END of subscription-->
+        <!--card bottom-->
         <div class="card__bottom">
-          <h2 class="card__about">Why Us</h2>
-          <ul class="card__bottom-nav">
-            <li>Tutorials by industry experts</li>
-            <li>Peer &amp; expert code review</li>
-            <li>Coding exercises</li>
-            <li>Access to our GitHub repos</li>
-            <li>Community forum</li>
-            <li>Flashcard decks</li>
-            <li>New videos every week</li>
-          </ul>
+          <div class="card__container">
+            <h3 class="card__about">Why Us</h3>
+            <ul class="card__features">
+              <li>Tutorials by industry experts</li>
+              <li>Peer &amp; expert code review</li>
+              <li>Coding exercises</li>
+              <li>Access to our GitHub repos</li>
+              <li>Community forum</li>
+              <li>Flashcard decks</li>
+              <li>New videos every week</li>
+            </ul>
+          </div>
         </div>
+        <!--END of card bottom-->
       </div>
-    </main>  
+      <!--END of card-->
+    </main> 
+    <!--END of main--> 
+    <!--footer-->
     <footer class="footer">
       <p class="footer__attribution">
-        Challenge by <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Challenge by <a class="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="link" target="_blank" href="https://www.frontendmentor.io/profile/MariusHor">MariusHor</a>.
       </p>
     </footer>
+    <!--END of footer-->
   </body>
 </html>
