@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/single-price-grid-component-S1R8id2Sc)
-- Live Site URL: (https://mariushor.github.io/Single-price-grid-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-S1R8id2Sc)
+- [Live Site URL](https://mariushor.github.io/Single-price-grid-component/)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - (https://www.frontendmentor.io/profile/MariusHor)
+- Frontend Mentor - [@mariusHor](https://www.frontendmentor.io/profile/MariusHor)
 
